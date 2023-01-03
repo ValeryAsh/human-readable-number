@@ -1,5 +1,4 @@
 module.exports = function toReadable (number) {
-  module.exports = function toReadable (number) {
     const units = ['','one','two','three','four', 'five','six','seven','eight','nine'];
     const twenty = ['ten','eleven','twelve','thirteen', 'fourteen','fifteen','sixteen', 'seventeen','eighteen','nineteen'];
     const dozens = ['','','twenty','thirty','forty','fifty', 'sixty','seventy','eighty','ninety'];
@@ -36,5 +35,4 @@ module.exports = function toReadable (number) {
         console.log(result.join(''))
         return  result.join('')
     }
-}
 }
